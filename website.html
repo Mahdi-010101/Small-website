@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>miniproject</title>
+</head>
+<body dir="rtl">
+    <form style="font-family: arial;" action="Contact Me.html">
+        <fieldset>
+            <legend align="center"> <h3> فرم استعلام قیمت طراحی سایت </h3></legend>
+            
+            <p style="color: red; font-size: 20;">
+                <b>
+                    نکته 1: خدمات مندرج دراین فرم می تواند از سوی مشتری خصوصی سازی می شود.
+                </b>
+            </p>
+            <p style="color: red; font-size: 20;">
+                <b>
+                    نکته 2: فیلدهایی که دارای علامت * باید توسط شما تکمیل شوند.
+                </b>
+            </p>
+            
+            <br><br>
+
+            <b>
+                <label> * نام: </label>
+                <input type="text" placeholder="نام خود را وارد کنید" name="Fname" size="30" required autofocus> <br><br>
+    
+                <label> * نام خانوادگی: </label>
+                <input type="text" placeholder="نام خانوادگی خود را وارد کنید" name="Lname" size="30" required> <br><br>
+    
+                <label> * ایمیل: </label>
+                <input type="email" placeholder="ایمیل خود را وارد کنید" name="email" size="30" required> <br><br>
+    
+                <label> شماره منزل / محل کار: </label>
+                <input type="tel" placeholder="051" name="telephone" size="30" maxlength="11"> <br><br>
+    
+                <label> * شماره همراه: </label>
+                <input type="tel" placeholder="09" name="phonenumber" size="30" maxlength="11" required> <br><br>
+    
+                <label> تم مورد علاقه شما برای طراحی سایت: </label>
+                <input type="color" name="color" value="#ccff55" size="30"> <br><br>
+
+                <label> بودجه شما برای طراحی سایت: </label> <br><br>
+
+                <span> 1 میلیون تا 5 میلیون تومان </span>
+                <input type="radio" value="money" name="money" id="money">
+
+                <span> 5 میلیون تا 10 میلیون تومان </span>
+                <input type="radio" value="money" name="money" id="money">
+
+                <span> بالاتر از 10 میلیون </span>
+                <input type="radio" value="money" name="money" id="money" checked> <br><br>
+
+                <label> * نوع وبسایت شما: </label>
+                <select required>
+                    <option> شخصی </option>
+                    <option> خدماتی </option>
+                    <option> شرکتی </option>
+                    <option> فروشگاهی </option>
+                </select>
+
+                <br><br>
+
+                <label> خدمات اضافه: </label>
+                <span> سِئو </span>
+                <input type="checkbox" name="SEO">
+
+                <span> واکنشگرایی </span>
+                <input type="checkbox" name="BS">
+
+                <span> تبلیغات گوگل </span>
+                <input type="checkbox" name="ADS">
+
+                <br><br>
+
+                <label> زمان مطلوب شما برای تحویل پروژه: </label>
+                <span> 20 روز</span>
+                <input type="range">
+                <span> 40 روز </span>
+
+                <br><br>
+
+                <label> توضیحات: </label> <br>
+                <textarea placeholder="توضیحات...." style="width: 500; height: 500;"></textarea>
+
+                <br><br>
+
+                <input type="submit" value="ثبت درخواست" name="submit" onclick="alert(' درخواست شما ثبت شد، با تشکر از شما ')">
+                <input type="reset" value="پاک کردن فرم" name="reset">
+            </b>
+        </fieldset>
+    </form>
+</body>
+</html>
